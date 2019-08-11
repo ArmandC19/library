@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css"> 
+  </head>
+  <body>
+    <button class="new-book">+</button>
+    <div class="overlay">
+      <div class="form-holder">
+        <div class="bar">
+          Form
+          <button id="close-form">x</button>
+        </div>
+        
+        <form>
+          Title: <input type="text" id="title" name="title">
+          Author: <input type="text" id="author" name="author">
+          Pages: <input type="text" id="pages" name="pages">
+            <select id="read">
+              <option value="1">Read</option>
+              <option value="0">Not Read</option>
+            </select>
+          <button type="button" id="submit">submit</button>
+        </form>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="header">
+        <h1>My Library</h1>
+      </div>
+      <div class="display">
+
+      </div>
+    </div>
+  </body>
+</html>
+<script src="script.js" defer></script>

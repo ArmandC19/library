@@ -1,0 +1,63 @@
+.wrapper {
+  display: grid;
+  grid-template-rows: (1fr 8fr);
+}
+
+.header {
+  background: grey;
+  display: grid;
+}
+
+.display {
+  display: grid;
+  background: blue;
+  grid-template-columns: repeat(auto-fit, 100px);
+  justify-content: center;
+  grid-gap: 20px;
+}
+
+.book {
+  padding: 10px;
+  background: white;
+}
+
+.overlay {
+  position: fixed;
+  display: none;
+  min-height: 100vh;
+  min-width: 100vw;
+  background: rgba(0, 0, 0, 0.25);
+  justify-items: center;
+  align-content: center;
+}
+
+form{
+  border-top: solid black;
+  display: grid;
+  grid-row-gap: 10px;
+}
+
+.new-book{
+  font-size: 18px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  border-radius: 100%;
+  margin: 10px;
+  height: 50px;
+  width: 50px;
+}
+
+.form-holder {
+  display: grid;
+  background: grey;
+  border: solid black;
+}
+
+#close-form {
+  float: right;
+}
+
+.bar{
+  background: lightgrey;
+}
